@@ -31,7 +31,7 @@
 			// Must Come empty
 			$robo 		= $_POST['robo'];
 			// This Address mever xomes empty
-			$to 			= $pink['admin-email'];
+			$to 			= $tust['admin-email'];
 
 			if (empty($name) || empty($email) || empty($website) || empty($address) || empty($message) || !empty($robo)) {
 				echo "<h4 class = 'worning text-center bg-warning'>Please Fill All The information</h4>";
